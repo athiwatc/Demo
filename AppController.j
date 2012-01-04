@@ -19,7 +19,7 @@
 
 - (@action)buttonPress:(id)sender
 {
-    [l3 setObjectValue: [l1 floatValue] + [l1 floatValue]];
+    [l3 setObjectValue: [l1 floatValue] + [l2 floatValue]];
 }
 
 - (void)applicationDidFinishLaunching:(CPNotification)aNotification
